@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 150MB
+  resources:
+    static-locations: classpath:static/,file:static/
+
+
+logging:
+  level:
+#    com.nexteer.mapper.dbrma.ModelProjectNameMapper: DEBUG
+    com.zyt.orz.*: DEBUG #DEBUG,INFO,WARN,ERROR

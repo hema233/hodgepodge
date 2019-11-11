@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    db1:
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      jdbc-url: jdbc:sqlserver://10.1.8.15;databaseName=ReallyTest
+      password: qwer55555
+      username: sa
+#    db2:
+#      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+#      url: jdbc:sqlserver://10.1.8.15;databaseName=ReallyTest
+#      password: qwer55555
+#      username: sa
+      
+    
+      
+      
+ 
